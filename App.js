@@ -22,7 +22,7 @@ class HomeScreen extends React.Component {
 }
 
 export default StackNavigator({
-  Index: { screen: Index},  
+  Index: { screen: Index, navigationOptions: { header: null } },  
   Login: { screen: Login, navigationOptions: { title: "Login" } },
   Register: { screen: Register, navigationOptions: { title: "Register" } },
   Register2: { screen: Register2, navigationOptions: { title: "Register 2" } },  

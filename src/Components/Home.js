@@ -20,11 +20,11 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
+    //BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
   }
 
   componentWillUnmount() {
-    BackHandler.removeEventListener('hardwareBackPress', this.handleBackButton);
+    //BackHandler.removeEventListener('hardwareBackPress', this.handleBackButton);
   }
 
   handleBackButton() {
